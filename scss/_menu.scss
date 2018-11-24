@@ -76,7 +76,7 @@
   //Branding Side
   &-branding {
     background: $primary-color;
-    transform: translate3d(0, 100, 0);
+    transform: translate3d(0, 100%, 0);
     @include easeOut;
 
     &.show {
@@ -85,8 +85,8 @@
     }
 
     .portrait {
-      width: 150px;
-      height: 150px;
+      width: 130px;
+      height: 130px;
       background: url("../img/jyde.jpg");
       border-radius: 50%;
       border: solid 3px $secondary-color;
